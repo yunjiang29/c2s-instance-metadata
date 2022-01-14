@@ -30,7 +30,7 @@ const argv = yargs(hideBin(process.argv))
     .option('emulatedRegion', {
         type: 'string',
         description: 'Region in which the emulator has placed the instance',
-        default: 'us-iso-east-1',
+        default: 'us-isob-east-1',
     })
     .argv;
 
